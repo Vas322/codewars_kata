@@ -1,0 +1,5 @@
+vehicle_model.txt
+.git
+__pycache__/
+.idea
+test.py

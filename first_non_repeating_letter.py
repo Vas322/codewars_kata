@@ -17,6 +17,3 @@ string ("") or None -- see sample tests.
 def first_non_repeating_letter(string):
     string_list = [item.lower() for item in string]
     return [string[i] for i in range(len(string_list)) if string_list.count(string_list[i]) == 1]
-
-
-print(first_non_repeating_letter('dsssdsffuU'))
